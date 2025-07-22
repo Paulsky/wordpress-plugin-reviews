@@ -1,0 +1,14 @@
+{
+  "name": "wdevs-wp-plugin-reviews",
+  "version": "1.0.0",
+  "description": "Display WordPress.org plugin reviews directly in your WooCommerce product pages.",
+  "author": "Wijnberg Developments",
+  "license": "GPL-2.0-or-later",
+  "main": "index.js",
+  "scripts": {
+    "plugin-zip": "wp-scripts plugin-zip  --webpack-src-dir=block/src --no-root-folder"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.19.0"
+  }
+}

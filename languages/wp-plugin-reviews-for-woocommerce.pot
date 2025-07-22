@@ -1,0 +1,154 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Plugin Reviews for WooCommerce\n"
+"POT-Creation-Date: 2025-07-22 15:44+0200\n"
+"PO-Revision-Date: 2025-07-22 15:43+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wdevs-wp-plugin-reviews.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-wdevs-wp-plugin-reviews-activator.php:35
+msgid ""
+"This plugin requires WooCommerce. Please install and activate WooCommerce "
+"before activating this plugin."
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:118
+msgid "WordPress.org Plugin Slug"
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:119
+msgid "e.g. woocommerce"
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:121
+msgid ""
+"The plugin slug from WordPress.org plugin directory (e.g. \"woocommerce\" "
+"from wordpress.org/plugins/woocommerce/)."
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:273
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:341
+#, php-format
+msgid "WordPress.org Reviews (%d)"
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:349
+#, php-format
+msgid "Reviews (%d)"
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:372
+msgid "Unable to load WordPress.org reviews at this time."
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:380
+#: public/partials/section-wdevs-wp-plugin-reviews-tab-content.php:45
+msgid "No WordPress.org reviews found for this plugin."
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:412
+msgid "WooCommerce WP Plugin Reviews"
+msgstr ""
+
+#. translators: %s: Link to author site.
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:433
+#, php-format
+msgid ""
+"WooCommerce WP Plugin Reviews is developed by %s. Your trusted WordPress & "
+"WooCommerce plugin partner from the Netherlands."
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:472
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:497
+msgid "General"
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:543
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:545
+msgid ""
+"Configure how WordPress.org plugin reviews are displayed in your WooCommerce "
+"store."
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:549
+msgid "Cache Duration (Hours)"
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:550
+msgid ""
+"How long to cache WordPress.org review data. Lower values = more fresh data, "
+"higher server load."
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:562
+msgid "Clear All Caches"
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:563
+msgid "Clear all cached WordPress.org review data immediately"
+msgstr ""
+
+#: includes/class-wdevs-wp-plugin-reviews-woocommerce.php:601
+msgid "All WordPress.org plugin review caches have been cleared successfully."
+msgstr ""
+
+#: public/partials/section-wdevs-wp-plugin-reviews-tab-content.php:21
+msgid "Latest reviews from WordPress.org"
+msgstr ""
+
+#. translators: %d: total number of reviews
+#: public/partials/section-wdevs-wp-plugin-reviews-tab-content.php:30
+#, php-format
+msgid "View all %d reviews on WordPress.org"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Plugin Reviews for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://products.wijnberg.dev/product/wordpress/plugins/wp-plugin-reviews-"
+"for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Display WordPress.org plugin reviews directly in your WooCommerce product "
+"pages. Seamlessly integrate plugin reviews with your store's existing review "
+"system."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wijnberg Developments"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wijnberg.dev/"
+msgstr ""
