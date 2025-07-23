@@ -352,7 +352,9 @@ class Wdevs_WP_Plugin_Reviews_Data_Manager {
 		
 		foreach ( $this->product_data as $product_data ) {
 			if ( ! empty( $product_data['comment_ratings'] ) ) {
-				$all_ratings = array_merge( $all_ratings, $product_data['comment_ratings'] );
+				foreach ( $product_data['comment_ratings'] as $comment_id => $rating ) {
+					$all_ratings[ $comment_id ] = $rating;
+				}
 			}
 		}
 		

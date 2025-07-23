@@ -268,12 +268,12 @@ class Wdevs_WP_Plugin_Reviews_Woocommerce {
 		if ( 'rating' !== $meta_key || ! $single ) {
 			return $value;
 		}
-
+		
 		// Check all cached products for this comment ID
-		foreach ( $this->data_manager->get_comment_ratings() as $comment_id => $rating ) {
-			if ( $comment_id == $object_id ) {
-				return $rating;
-			}
+		$comment_ratings = $this->data_manager->get_comment_ratings();
+
+		if ( isset( $comment_ratings[ $object_id ] ) ) {
+			return $comment_ratings[ $object_id ];
 		}
 
 		return $value;
